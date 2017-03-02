@@ -1,23 +1,23 @@
 <!-- saved from url=(0048)http://g2stock-vn.afe-solutions.com/m/index.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <title>App testing page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./index_files/main.css">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  	<title>App testing page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
 	<link rel="manifest" href="http://g2stock-vn.afe-solutions.com/m/manifest.json">
-	<script src="./index_files/index.js.download"></script>
 </head>
 <body>
 App testing page
 
-	<script> 
-      window.addEventListener('load', function() {
-  
-        var outputElement = document.getElementById('output');
+<script> 
+	window.addEventListener('load', function() {
+	  	var outputElement = document.getElementById('output');
                
-        window.addEventListener('beforeinstallprompt', function(e) {
-          outputElement.textContent = 'beforeinstallprompt Event fired';
-        });
-      });
-    </script>
-
-</body></html>
+        	window.addEventListener('beforeinstallprompt', function(e) {
+          		outputElement.textContent = 'beforeinstallprompt Event fired';
+        	});
+      	});
+</script>
+</body>
+</html>
