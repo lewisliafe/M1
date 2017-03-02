@@ -37,7 +37,7 @@
   "related_applications": [
     {
       "platform": "play",
-      "id": "com.afe_solutions.hkbasic"
+      "id": "com.afe_solutions.afebasic"
     }
   ],
   "start_url": "./index.html",
