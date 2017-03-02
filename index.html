@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>App testing page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+	<link rel="manifest" href="manifest.json">
+	<script src="src/index.js"></script>
+</head>
+<body>
+App testing page
+
+	<script> 
+      window.addEventListener('load', function() {
+  
+        var outputElement = document.getElementById('output');
+               
+        window.addEventListener('beforeinstallprompt', function(e) {
+          outputElement.textContent = 'beforeinstallprompt Event fired';
+        });
+      });
+    </script>
+</body>
+</html>
